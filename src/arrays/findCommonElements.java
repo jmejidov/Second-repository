@@ -2,9 +2,10 @@ package arrays;
 
 public class findCommonElements {
     public static void main(String[] args) {
-        int [] arrayOne = {2,5,7,9,45,65,17};
+        int [] arrayOne = {2,5,7,9,65,17};
         int [] arrayTwo = {5,7,65,65,18,19} ;
         commonElements(arrayOne,arrayTwo);
+        ArrayMerging.mergeArrays(arrayOne,arrayTwo);
     }
     public static void commonElements (int[] a , int [] b){
         int counter ;
